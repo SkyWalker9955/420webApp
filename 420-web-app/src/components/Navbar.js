@@ -20,7 +20,7 @@ export default function NavbarComp() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
             </Nav.Item>
               <Nav.Link as={Link} to="/aboutUs">About Us</Nav.Link>
 
@@ -52,7 +52,7 @@ export default function NavbarComp() {
     </div>
     <div>
         <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/admission" element={<Admission />} />
         </Routes>
