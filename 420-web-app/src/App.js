@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div>
         <div style={{color:"rgb(255,199,44)", fontSize: 40}}>Southeastern Louisiana University</div>
-        <div style={{color:"white", fontSize: 20}}>Computer Science Department</div>
+        <div style={{color:"white", fontSize: 30, paddingBottom: 20 }}>Computer Science Department</div>
       </div>
       <Header />
       <Footer />

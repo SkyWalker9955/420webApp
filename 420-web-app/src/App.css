@@ -2,4 +2,10 @@
   text-align: center;
   background-color: rgb(20,76,42);
 }
+.font1 {
+  font-family: 'Noto Serif', serif;
+  color: white;
+  font-size: 50;
+  padding-bottom: 30;
+}
 

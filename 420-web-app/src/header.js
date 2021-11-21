@@ -46,12 +46,14 @@ import Home from './pages/home';
   
     return (
       <Box sx={{ width: '100%' }}>
-        <Box sx={{ borderBottom: 1, borderColor: 'white' }}>
+        <Box sx={{ borderBottom: 1, borderColor: 'white'}}>
+        <div>
           <Tabs TabIndicatorProps={{style: {background:'white'}}} value={value} onChange={handleChange} aria-label="basic tabs example">
             <Tab style={{color:"rgb(255,199,44)", fontSize: 15}} label="Home" {...a11yProps(0)} />
             <Tab style={{color:"rgb(255,199,44)", fontSize: 15}} label="About Us" {...a11yProps(1)} />
             <Tab style={{color:"rgb(255,199,44)", fontSize: 15}} label="Admission" {...a11yProps(2)} />
           </Tabs>
+        </div>
         </Box>
         <TabPanel value={value} index={0}>
           <Home />
