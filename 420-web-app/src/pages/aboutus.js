@@ -1,10 +1,10 @@
 import * as React from 'react';
-import './home.css'
 
-export default function Home() {
+
+export default function AboutUs() {
   return (
     <div style={{background: 'white'}}>
-      <div>Home</div>
+      <div>About Us</div>
     </div>
   );
 }
