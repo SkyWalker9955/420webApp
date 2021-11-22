@@ -19,37 +19,8 @@ const App = () => {
 
             {/* Header */}
             <div className="app-header">
-                <NavbarComp></NavbarComp>
+                <NavbarComp />
             </div>
-
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
 
             {/* Footer */}
             <div className="app-footer">

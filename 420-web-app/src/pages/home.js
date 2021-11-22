@@ -1,12 +1,14 @@
 import * as React from "react";
 import "./home.css";
-import ReactPlayer from "react-player";
+import ResponsivePlayer from "../components/ResponsivePlayer";
 
 export default function Home() {
-    return (
-        <div style={{ background: "white" }}>
-            <div>Home</div>
-            <ReactPlayer url="https://youtu.be/41VO58oG2E8" />
-        </div>
-    );
+  return (
+    <div style={{ background: "white" }}>
+      <h1 style={{ padding: 50 }}>Meet the Department Head!</h1>
+      <ResponsivePlayer />
+      
+      
+    </div>
+  );
 }
