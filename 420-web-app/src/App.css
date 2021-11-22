@@ -1,11 +1,29 @@
 .App {
-  text-align: center;
-  background-color: rgb(20,76,42);
+    /* text-align: center; 
+    */
+    /* flex: auto; */
+    justify-content: center;
+}
+.flexProps {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.title {
+    background-color: rgb(20, 76, 42);
+    text-align: center;
+}
+.app-header {
+    background-color: rgb(20, 76, 42);
+    text-align: center;
+}
+.app-footer {
+    background-color: #444444;
+    flex: 1;
 }
 .font1 {
-  font-family: 'Noto Serif', serif;
-  color: white;
-  font-size: 50;
-  padding-bottom: 30;
+    font-family: "Noto Serif", serif;
+    color: white;
+    font-size: 50;
+    padding-bottom: 30;
 }
-
