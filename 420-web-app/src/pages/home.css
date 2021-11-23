@@ -4,4 +4,23 @@
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
+.titleSpacer {
+    padding: 50px;
+}
+
+.carouselSpacer {
+    padding-top: 25px;
+}
+
+p {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 900px;
+}
+
+.descriptionWrapper {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}

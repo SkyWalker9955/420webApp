@@ -1,5 +1,4 @@
 import "./App.css";
-import Header from "./header";
 import Footer from "./footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
@@ -13,7 +12,7 @@ const App = () => {
                     Southeastern Louisiana University
                 </div>
                 <div style={{ color: "white", fontSize: 35, paddingBottom: 20 }}>
-                    Computer Science Department
+                    Department of Computer Science
                 </div>
             </div>
 
@@ -21,35 +20,6 @@ const App = () => {
             <div className="app-header">
                 <NavbarComp></NavbarComp>
             </div>
-
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
-            <h4>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h4>
 
             {/* Footer */}
             <div className="app-footer">
