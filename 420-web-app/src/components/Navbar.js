@@ -25,7 +25,11 @@ export default function NavbarComp() {
                                 <Nav.Link as={Link} to="/admission">
                                     Admission
                                 </Nav.Link>
-                                <NavDropdown title="Prerequisite Charts" id="collasible-nav-dropdown">
+                                <NavDropdown
+                                    title="Prerequisite Charts"
+                                    id="collasible-nav-dropdown"
+                                    className=""
+                                >
                                     <NavDropdown.Item href="http://www.southeastern.edu/acad_research/depts/comp_sci/undergrad_studies/cmps/pdfs/Sci_Flow_2018.pdf">
                                         Scientific
                                     </NavDropdown.Item>
