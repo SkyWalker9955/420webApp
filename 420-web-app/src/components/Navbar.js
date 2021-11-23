@@ -22,7 +22,7 @@ export default function NavbarComp() {
                                     About Us
                                 </Nav.Link>
 
-                                <Nav.Link as={Link} to="/admission">
+                                <Nav.Link href="http://www.southeastern.edu/admin/admissions/">
                                     Admission
                                 </Nav.Link>
                                 <NavDropdown
